@@ -1,0 +1,26 @@
+.title-page {
+    padding-left: var(--std-left-padding);
+    background-color: black;
+    color: white;
+    padding-top: 7%;
+    height: var(--std-full-page);
+}
+
+.menu-shape {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.title-summary {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.title-announcement {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

@@ -1,4 +1,6 @@
-import MainIntroPage from './pages/MainIntroPage';
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MainMenu from './components/frames/MainMenu';
 import {
   RecoilRoot
 } from 'recoil';
@@ -6,7 +8,7 @@ import {
 function App() {
   return (
     <RecoilRoot>
-      <MainIntroPage/>
+      <MainMenu/>
     </RecoilRoot>
   );
 }

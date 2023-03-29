@@ -1,0 +1,9 @@
+html {
+    height: 100%;
+}
+
+:root {
+    --std-left-padding: 5%;
+    --std-full-page: 100vh;
+    --std-font: 'Montserrat', sans-serif;
+}

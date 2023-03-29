@@ -1,0 +1,13 @@
+.menu-page {
+    padding-left: var(--std-left-padding);
+    font-family: var(--std-font);
+    font-weight: 700;
+    font-size: 30px;
+    min-height: var(--std-full-page);
+    padding-top: 10vh;
+}
+
+.options-page {
+    margin-top: 15vh;
+    text-align: center;
+}
