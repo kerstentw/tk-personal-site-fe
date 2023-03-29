@@ -38,7 +38,6 @@ export function Dodecahedron(props) {
       <mesh
         {...props}
         ref={ref}
-        scale={3}
         onClick={(event) => click(!clicked)}
         onPointerOver={(event) => hover(true)}
         onPointerOut={(event) => hover(false)}>
@@ -48,14 +47,14 @@ export function Dodecahedron(props) {
     )
   }
 
-export default function BoxFrame() {
+export default function BoxFrame(props) {
   return (
     <div style={{width: "100%", height: "23vw"}}>
       <Canvas flat linear>
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
         <pointLight position={[-10, -10, -10]} />
-        <Dodecahedron position={[0, 0, 0]} />
+        <Dodecahedron position={[0, 0, 0]} scale={props.scale || 3} />
         <OrbitControls />
       </Canvas>
     </div>

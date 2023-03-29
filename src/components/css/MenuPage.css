@@ -2,12 +2,24 @@
     padding-left: var(--std-left-padding);
     font-family: var(--std-font);
     font-weight: 700;
-    font-size: 30px;
+    font-size: 45px;
     min-height: var(--std-full-page);
     padding-top: 10vh;
+    padding-bottom: 5vh;
+    padding-right: 4vw;
 }
 
 .options-page {
     margin-top: 15vh;
     text-align: center;
+}
+
+.alt-menu {
+    max-width: 300px;
+    float: right;
+}
+
+.alt-menu-text {
+    font-size: 12px;
+    font-weight: 400;
 }

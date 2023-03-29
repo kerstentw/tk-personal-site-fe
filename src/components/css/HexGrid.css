@@ -1,0 +1,6 @@
+.hexagon-text {
+  font-family: var(--std-font);
+  font-weight: 600;
+  fill: black;
+  pointer-events: none;
+}

@@ -11,11 +11,11 @@ export default function TitlePage() {
       <div className="title-page">
         <Container>
           <Row>
-            <Col className="title-announcement">
+            <Col md={6} className="title-announcement">
               I'm a Developer & Stuff.
             </Col>
-            <Col>
-              <Row className="menu-shape d-none d-md-block">
+            <Col md={6}>
+              <Row className="menu-shape">
                 <BoxFrame/>
               </Row>
               <Row className="title-summary">
