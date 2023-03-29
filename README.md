@@ -1,2 +1,3 @@
-# tk-personal-site-fe
-My Personal Site for portfolio development and display
+# Personal Site
+
+This is the client for the personal site for Tai.
