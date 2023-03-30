@@ -5,10 +5,17 @@ import {
     Container 
 } from 'react-bootstrap';
 import BoxFrame from '../basics/MenuShape';
+import DownArrow from '../basics/DownArrow';
+
+function smoothScroll(_class){
+  document.querySelector(`.${_class}`).scrollIntoView({
+      behavior: 'smooth'
+  });
+}
 
 export default function TitlePage() {
     return (
-      <div className="title-page">
+      <div id="TitlePage" className="title-page">
         <Container>
           <Row>
             <Col md={6} className="title-announcement">
@@ -19,9 +26,16 @@ export default function TitlePage() {
                 <BoxFrame/>
               </Row>
               <Row className="title-summary">
-                Hello, my name is Tai I am a Self Taught Full-ish stack Web Developer.  I have been working in and out of multiple disciplines
-                including building basic CRUD apps (like the one you see here), web3 stuff, data scraping, and cloud SRE.  You can checkout my
-                portfolio, resume, and a random assortment of other scribblings on my blog.
+                <p className="title-summary-text">
+                  Hello, my name is Tai I am a Self Taught Full-ish stack Web Developer.  I have been working in and out of multiple disciplines
+                  including building basic CRUD apps (like the one you see here), web3 stuff, data scraping, and cloud SRE.  You can checkout my
+                  portfolio, resume, and a random assortment of other scribblings on my blog.
+                </p>
+              </Row>
+              <Row>
+                <div className="center-contain">
+                  <DownArrow className="down-arrow" onClick={()=>smoothScroll("menu-page")}/>
+                </div>
               </Row>
             </Col>
           </Row>

@@ -1,0 +1,71 @@
+
+<svg
+   width="22.606337mm"
+   height="21.169821mm"
+   viewBox="0 0 22.606336 21.169821"
+   version="1.1"
+   id="svg5">
+
+  <defs
+     id="defs2">
+    <marker
+    
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DistanceStart"
+       style="overflow:visible"
+      >
+      <g
+         id="g2300">
+        <path
+           id="path2306"
+           d="M 0,0 H 2"
+           style="fill:none;stroke:context-fill;stroke-width:1.15;stroke-linecap:square" />
+        <path
+           id="path2302"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           style="fill:context-stroke;fill-rule:evenodd;stroke:none" />
+        <path
+           id="path2304"
+           d="M 0,-4 V 40"
+           style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:square" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+    >
+      <path
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1511" />
+    </marker>
+  </defs>
+  <g
+     
+     id="layer1"
+     transform="translate(-23.008988,30.843745)">
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.765;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 27.780492,-22.525846 6.50922,7.092804 6.55411,-7.092804"
+       id="path1285"
+        />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 29.935266,-23.055013 4.354446,4.71357 4.354443,-4.71357 z"
+       id="path2456"
+        />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.104;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2814"
+       cx="34.312157"
+       cy="-20.258835"
+       rx="10.251168"
+       ry="9.5329103" />
+  </g>
+</svg>

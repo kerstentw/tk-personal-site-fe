@@ -3,10 +3,12 @@
     font-family: var(--std-font);
     font-weight: 700;
     font-size: 45px;
+    max-height: calc(var(--std-full-page) + 5vh);
     min-height: var(--std-full-page);
     padding-top: 10vh;
     padding-bottom: 5vh;
     padding-right: 4vw;
+    overflow:hidden;
 }
 
 .options-page {
@@ -22,4 +24,6 @@
 .alt-menu-text {
     font-size: 12px;
     font-weight: 400;
-}
+    white-space: pre-wrap;  
+  }
+  

@@ -5,8 +5,8 @@ import MenuPage from "../pages/MenuPage";
 export default function MainMenu(props) {
   return (
     <div>
-        <TitlePage/>
-        <MenuPage/>
+        <TitlePage className="TitlePage"/>
+        <MenuPage className="MenuPage"/>
     </div>
   )
 }
