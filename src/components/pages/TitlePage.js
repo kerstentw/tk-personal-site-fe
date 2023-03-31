@@ -5,7 +5,7 @@ import {
     Container 
 } from 'react-bootstrap';
 import BoxFrame from '../basics/MenuShape';
-import DownArrow from '../basics/DownArrow';
+import Arrow from '../basics/DownArrow';
 
 function smoothScroll(_class){
   document.querySelector(`.${_class}`).scrollIntoView({
@@ -34,7 +34,7 @@ export default function TitlePage() {
               </Row>
               <Row>
                 <div className="center-contain">
-                  <DownArrow className="down-arrow" onClick={()=>smoothScroll("menu-page")}/>
+                  <Arrow className="down-arrow" onClick={()=>smoothScroll("menu-page")}/>
                 </div>
               </Row>
             </Col>

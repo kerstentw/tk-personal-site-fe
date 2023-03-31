@@ -1,4 +1,4 @@
-export default function DownArrow(props) {
+export default function Arrow(props) {
   const lightSVG = () => {
     return (<svg width={85.441} height={80.012} viewBox="0 0 22.606 21.17" {...props}>
     <g transform="translate(-23.009 30.844)">

@@ -1,0 +1,11 @@
+.page-header-container {
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.header-arrow {
+    rotate: 90deg;
+    height: 20px;
+}
