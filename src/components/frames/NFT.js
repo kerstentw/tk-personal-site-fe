@@ -1,5 +1,9 @@
+import PageHeader from "../basics/PageHeader"
+
 export default function NFT() {
     return (
-        <div> NFT </div>
+        <div>
+          <PageHeader headingText=".non-fungible-token"/>
+        </div>
     )
 }

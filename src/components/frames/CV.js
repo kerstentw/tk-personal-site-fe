@@ -1,5 +1,9 @@
-export default function CV() {
+import PageHeader from "../basics/PageHeader";
+
+export default function CV () {
     return (
-        <div> CV </div>
+        <div>
+          <PageHeader headingText=".curriculum-vitae"/>
+        </div>
     )
 }

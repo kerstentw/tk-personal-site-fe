@@ -11,7 +11,7 @@ export default function MenuPage() {
     return (
         <div id="MenuPage" className="menu-page">
             <Container>
-              menu
+              #menu
 
               <div className="alt-menu">
             {currentSection?.altText? 

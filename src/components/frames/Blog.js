@@ -1,5 +1,9 @@
+import PageHeader from "../basics/PageHeader";
+
 export default function Blog () {
     return (
-        <div> Blog </div>
+      <div>
+        <PageHeader headingText=".blog"/>
+      </div>
     )
 }

@@ -1,11 +1,20 @@
 .page-header-container {
     background-color: black;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: var(--std-left-padding);
+    
+}
+
+.header-text {
+    font-weight: 700;
 }
 
 .header-arrow {
     rotate: 90deg;
     height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    
 }

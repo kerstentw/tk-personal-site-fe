@@ -6,10 +6,12 @@ import '../css/PageHeader.css';
 export default function PageHeader(props) {
     return (
         <div className="page-header-container">
-            <Link to="/" > 
+            <Link to="/#MenuPage" > 
               <Arrow className="header-arrow" />
             </Link>
-            {props.headingText}
+            <span className="header-text">
+              {props.headingText}
+            </span>
         </div>
     )
 }

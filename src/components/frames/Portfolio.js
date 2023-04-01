@@ -1,5 +1,9 @@
+import PageHeader from "../basics/PageHeader"
+
 export default function Portfolio () {
     return (
-        <div> Portfolio </div>
+        <div>
+          <PageHeader headingText=".portfolio"/>
+        </div>
     )
 }

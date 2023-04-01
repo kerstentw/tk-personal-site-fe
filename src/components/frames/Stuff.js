@@ -1,5 +1,9 @@
+import PageHeader from "../basics/PageHeader";
+
 export default function Stuff() {
     return (
-        <div> Stuff </div>
+        <div>
+          <PageHeader headingText=".stuff"/>
+        </div>
     )
 }

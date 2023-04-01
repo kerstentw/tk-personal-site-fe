@@ -1,0 +1,88 @@
+.about-img-container {
+    background-image: url(https://i.imgur.com/qy3w6qG.jpg);
+    padding-top: 100px;
+    position: absolute;
+    height: 45vh;
+    width: 100%;    
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-bottom: 100px solid black;
+}
+
+.tai-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 15px solid black;
+    position: relative;
+    margin-left: 7vw;
+    bottom: -4;
+    padding: 0;
+    line-height: 0em;
+}
+
+.about-content {
+    min-width: 60vw;
+    max-width: 60vw;
+    padding-top: 50vh;
+    text-align: justify;
+    color: #333333;
+}
+
+.intro-group {
+    max-width: 600px;
+    color: white;
+}
+
+.intro-group h6 {
+    font-weight: 400;
+    color: #AAAAAA;
+}
+
+.about-intro-header {
+    bottom: -90px;
+    position: absolute
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .mobile-only {
+        display: inline;
+    }
+
+    .tai-img {
+        margin: auto;
+    }
+
+    .about-img-container {
+        border-bottom: 50px solid black;
+        height: 25vh
+    }
+
+    .intro-group {
+        max-width: 100%;
+        color: black;
+        text-align: center;
+        display:none;
+    }
+
+    .about-content {
+        padding-top: 10vh;
+    }
+
+    .about-content h1 {
+        margin-top: 25px;
+    }
+
+    .about-content h6 {
+        margin-bottom: 25px;
+        color: #555555;
+    }
+
+}
