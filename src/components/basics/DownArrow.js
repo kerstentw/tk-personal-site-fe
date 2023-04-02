@@ -1,12 +1,12 @@
 export default function Arrow(props) {
   const lightSVG = () => {
-    return (<svg width={85.441} height={80.012} viewBox="0 0 22.606 21.17" {...props}>
+    return (<svg width={85} height={85} viewBox="0 0 22.606 21.17" {...props}>
     <g transform="translate(-23.009 30.844)">
       <path
         style={{
           fill: "none",
           stroke: "#fff",
-          strokeWidth: 1.765,
+          strokeWidth: 0.5,
           strokeLinecap: "square",
           strokeLinejoin: "miter",
           strokeMiterlimit: 4,
@@ -18,7 +18,7 @@ export default function Arrow(props) {
       <path
         style={{
           fill: "#fff",
-          fillOpacity: 1,
+          fillOpacity: 0,
           stroke: "#fff",
           strokeWidth: 0.465,
           strokeLinecap: "butt",
@@ -34,7 +34,7 @@ export default function Arrow(props) {
           fill: "none",
           fillOpacity: 1,
           stroke: "#fff",
-          strokeWidth: 2.104,
+          strokeWidth: 1.5,
           strokeLinecap: "square",
           strokeLinejoin: "miter",
           strokeMiterlimit: 4,
@@ -43,8 +43,8 @@ export default function Arrow(props) {
         }}
         cx={34.312}
         cy={-20.259}
-        rx={10.251}
-        ry={9.533}
+        rx={10}
+        ry={10}
       />
     </g>
   </svg>)
