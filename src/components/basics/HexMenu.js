@@ -182,8 +182,8 @@ const HexGrid = (props) => {
 
   return (
     <HexagonGrid
-      gridWidth={ window.innerWidth < 900? 200 : 375}
-      gridHeight={window.innerWidth < 900? 650 : 375}
+      gridWidth={ window.innerWidth < 900? 200 : 400}
+      gridHeight={window.innerWidth < 900? 700 : 400}
       hexagons={hexagons}
       hexProps={getHexProps}
       renderHexagonContent={renderHexagonContent}

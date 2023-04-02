@@ -23,7 +23,7 @@ export default function TitlePage() {
             </Col>
             <Col md={6}>
               <Row className="menu-shape">
-                <BoxFrame/>
+                <BoxFrame scale={window.innerWidth <= 900? 8 : 3}/>
               </Row>
               <Row className="title-summary">
                 <p className="title-summary-text">

@@ -1,8 +1,3 @@
-body {
-    max-width: 100%;
-    max-height: 100%;
-    overflow-x: hidden;
-}
 
 html {
     max-width: 100%;
@@ -14,4 +9,11 @@ html {
     --std-left-padding: 5%;
     --std-full-page: 100vh;
     --std-font: 'Montserrat', sans-serif;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    font-family: var(--std-font);
 }

@@ -1,0 +1,24 @@
+.portfolio-wrapper {
+    background: url("../../static/backer_portfolio.svg");
+    min-height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.portfolio-content {
+    background-color: rgba(255,255,255, 0.8);
+    min-height: 100vh;
+    max-width: 80vw;
+    backdrop-filter: blur(3px);
+    padding-top: 30vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.portfolio-content p {
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+}
