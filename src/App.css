@@ -17,3 +17,12 @@ body {
     overflow-x: hidden;
     font-family: var(--std-font);
 }
+
+.get-in-your-box {
+    color: white;
+    font-size: 10px;
+}
+
+.just-drown {
+    bottom: 0;
+}

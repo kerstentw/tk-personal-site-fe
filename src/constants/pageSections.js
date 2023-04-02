@@ -16,19 +16,20 @@ const PAGE_SECTIONS = [
       link: "/blog",
       hoverStyle: {fill:"#D11149", color: "white"},
       altText: "A small glimpse in to stuff I am working on and some random thoughts I have been having."
-    }, 
-    {
-      label: "C.V.",
-      link: "/cv",
-      hoverStyle: {fill:"#1A8FE3", color: "white"},
-      altText: "My CV and a list of my failures for HR people to laugh at and pass around."
-    }, 
+    },
     {
       label: "stuff",
       link: "/stuff",
       hoverStyle: {fill:"#6610F2", color: "white"},
       altText: "Random stuff that I like, socials, etc."
     },
+    {
+      label: "C.V.",
+      link: "/cv",
+      hoverStyle: {fill:"#1A8FE3", color: "white"},
+      altText: "My CV and a list of my failures for HR people to laugh at and pass around."
+    }, 
+
     {
       label: "NFT",
       link: "/nft",

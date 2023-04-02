@@ -171,7 +171,6 @@ const HexGrid = (props) => {
         textAnchor="middle"
         fill = {hexagon.label !== hovering? "black" : hexagon.hoverStyle.color}
         pointerEvents = "none"
-        
       >
         {hexagon.label}
       </text>
@@ -182,8 +181,11 @@ const HexGrid = (props) => {
 
   return (
     <HexagonGrid
-      gridWidth={ window.innerWidth < 900? 200 : 400}
-      gridHeight={window.innerWidth < 900? 700 : 400}
+      styles={{
+        backgroundColor: "rgba(0,0,0,0)"
+      }}
+      gridWidth={ window.innerWidth < 900? 250 : 500}
+      gridHeight={ window.innerWidth < 900? 750 : 400}
       hexagons={hexagons}
       hexProps={getHexProps}
       renderHexagonContent={renderHexagonContent}

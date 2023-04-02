@@ -25,5 +25,12 @@
     font-size: 12px;
     font-weight: 400;
     white-space: pre-wrap;  
-  }
+}
+
+@media screen and (max-width: 900) {
+    
+}
+.wave-effect {
+  display: none;
+}
   
