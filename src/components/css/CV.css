@@ -1,0 +1,29 @@
+.cv-download-image {
+    height: 200px;
+    transition: transform 7s;
+}
+
+.cv-content-wrapper {
+    text-align: center;
+    padding-top: 25vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.cv-directions {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.cv-download-image:hover {
+  transform: scale(20);
+}
+
+.cv-download-image:hover  + .cv-directions {
+  color: white;
+}
+
